@@ -6,7 +6,7 @@ public class UniqueCities {
 
 
     void main() {
-        // 1. Create a HashSet and add the cities
+
         HashSet<String> cities = new HashSet<>();
 
         cities.add("Stockholm");
@@ -17,14 +17,14 @@ public class UniqueCities {
         cities.add("Gothenburg");
         cities.add("Lund");
 
-        // 2. Print all unique cities
+
         IO.println("Unique cities:");
 
         for (String city : cities) {
             IO.println(city);
         }
 
-        // 3. Print the total count
+
         IO.println("Total unique cities: " + cities.size());
     }
 

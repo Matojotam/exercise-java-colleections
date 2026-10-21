@@ -18,7 +18,7 @@ public class WordFrequency {
         words.add("grape");
         words.add("orange");
 
-        // 2. Count the frequency of each word
+
         HashMap<String, Integer> frequency = new HashMap<>();
 
         for (String word : words) {
@@ -29,11 +29,11 @@ public class WordFrequency {
             }
         }
 
-        // 3. Sort the words alphabetically
+
         TreeMap<String, Integer> sortedFrequency =
                 new TreeMap<>(frequency);
 
-        // 4. Print each word and its count
+
         for (String word : sortedFrequency.keySet()) {
             IO.println(word + ": " + sortedFrequency.get(word));
         }

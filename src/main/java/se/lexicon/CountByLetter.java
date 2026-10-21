@@ -20,13 +20,13 @@ public class CountByLetter {
         names.add("Amy");
         names.add("Brian");
 
-        // 2. Ask the user to enter a letter
+
         Scanner scanner = new Scanner(System.in);
 
         IO.print("Enter a letter: ");
         String letter = scanner.nextLine();
 
-        // 3. Count names starting with that letter
+
         int count = 0;
 
         for (String name : names) {
@@ -35,7 +35,7 @@ public class CountByLetter {
             }
         }
 
-        // 4. Print the result
+
         IO.println("Number of names starting with " + letter + ": " + count);
 
         scanner.close();
